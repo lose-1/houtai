@@ -1,0 +1,126 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "path": "/home",
+            "name": "home",
+            "component": "home",
+            "meta": {
+                "title": "message.router.home",
+                "isLink": "",
+                "isHide": false,
+                "isKeepAlive": true,
+                "isAffix": true,
+                "isIframe": false,
+                "roles": [
+                    "zhuguan"
+                ],
+                "icon": "iconfont icon-shouye"
+            }
+        },
+        {
+            "path": "/zhuguangrzlgl",
+            "name": "zhuguangrzlgl",
+            "component": "layout/routerView/parent",
+            "meta": {
+                "title": "个人资料管理",
+                "isLink": "",
+                "isHide": false,
+                "isKeepAlive": true,
+                "isAffix": false,
+                "isIframe": false,
+                "roles": [
+                    "zhuguan"
+                ],
+                "icon": "el-icon-s-grid"
+            },
+            "children": [
+                {
+                    "path": "/zhuguan_updt2/1",
+                    "name": "zhuguan_updt2",
+                    "component": "zhuguan/personal/index",
+                    "meta": {
+                        "title": "修改个人资料",
+                        "isLink": "",
+                        "isHide": false,
+                        "isKeepAlive": true,
+                        "isAffix": false,
+                        "isIframe": false,
+                        "roles": [
+                            "zhuguan"
+                        ],
+                        "icon": "iconfont icon-caidan"
+                    }
+                }
+            ]
+        },
+
+
+        {
+            "path": "/zhanneixinglygl",
+            "name": "zhanneixinglygl",
+            "component": "layout/routerView/parent",
+            "meta": {
+                "title": "在线留言管理",
+                "isLink": "",
+                "isHide": false,
+                "isKeepAlive": true,
+                "isAffix": false,
+                "isIframe": false,
+                "roles": ["zhuguan"],
+                "icon": "el-icon-ship"
+            },
+            "children": [
+                {
+                    "path": "/zhanneixin/1",
+                    "name": "zhanneixin",
+                    "component": "zhanneixin/index",
+                    "meta": {
+                        "title": "发件箱",
+                        "isLink": "",
+                        "isHide": false,
+                        "isKeepAlive": true,
+                        "isAffix": false,
+                        "isIframe": false,
+                        "roles": ["zhuguan"],
+                        "icon": "el-icon-basketball"
+                    }
+                },
+                {
+                    "path": "/zhanneixin/2",
+                    "name": "zhanneixin",
+                    "component": "zhanneixin/index2",
+                    "meta": {
+                        "title": "收件箱",
+                        "isLink": "",
+                        "isHide": false,
+                        "isKeepAlive": true,
+                        "isAffix": false,
+                        "isIframe": false,
+                        "roles": ["zhuguan"],
+                        "icon": "el-icon-basketball"
+                    }
+                }
+            ]
+        },
+
+
+        {
+            "path": "/resetPass",
+            "name": "resetPass",
+            "component": "resetPass/index",
+            "meta": {
+                "title": "message.router.resetPass",
+                "isLink": "",
+                "isHide": false,
+                "isKeepAlive": true,
+                "isAffix": false,
+                "isIframe": false,
+                "roles": [
+                    "zhuguan"
+                ],
+                "icon": "el-icon-s-grid"
+            }
+        }
+    ]
+}

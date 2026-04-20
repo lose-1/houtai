@@ -1,0 +1,284 @@
+﻿{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "系统用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/admins/1",
+					"name": "admins",
+					"component": "admins/index",
+					"meta": {
+						"title": "管理员",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/usersglygl",
+			"name": "usersglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "用户管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/usersinfos/1",
+					"name": "usersinfos",
+					"component": "usersinfos/index",
+					"meta": {
+						"title": "用户",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+		{
+			"path": "/lawtypesglygl",
+			"name": "lawtypesglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "票据分类管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/lawtypes/1",
+					"name": "lawtypes",
+					"component": "lawtypes/index",
+					"meta": {
+						"title": "票据分类查询",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/knowledgekuglygl",
+			"name": "knowledgekuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "报销流程管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/knowledgeku/1",
+					"name": "knowledgeku",
+					"component": "knowledgeku/index",
+					"meta": {
+						"title": "报销流程上传",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+		{
+			"path": "/wenjiantijiaogl",
+			"name": "wenjiantijiaogl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "票据提交管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/wenjiantijiao/1",
+					"name": "wenjiantijiao",
+					"component": "wenjiantijiao/index",
+					"meta": {
+						"title": "票据提交审核",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+		{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "异常上报管理",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "异常上报设置",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+{
+			"path": "/zhanneixingl",
+			"name": "zhanneixingl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "在线留言",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/zhanneixin/1",
+					"name": "zhanneixin",
+					"component": "zhanneixin/index",
+					"meta": {
+						"title": "发件箱",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				},
+				{
+					"path": "/zhanneixin/2",
+					"name": "zhanneixin",
+					"component": "zhanneixin/index2",
+					"meta": {
+						"title": "收件箱",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["admins"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["admins"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
